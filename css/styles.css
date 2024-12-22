@@ -17,11 +17,13 @@ h1{
     font-size: 56px;
     line-height: 60px;
     color: #fff;
+    text-align: center;
 }
 
 h2{
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
 }
 
 h3{
@@ -53,6 +55,10 @@ h3{
     background-color: #f4f4fd;
 }
 
+.team-page >li{
+    background-color: #ffffff;
+}
+
 footer{
     background-color: #2e2f42;
 }
@@ -74,4 +80,12 @@ footer{
 
 .button:hover{
     background-color: #404bbf;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer > p{
+    color: #f4f4fd;
 }
