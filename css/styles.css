@@ -29,7 +29,7 @@ body{
     color: #404bbf;
 }
 
-.link:active{
+.link:focus{
     color: #404bbf;
 }
 
@@ -48,6 +48,11 @@ body{
 
 .email:hover,
 .tel:hover{
+    color: #404bbf;
+}
+
+.email:focus,
+.tel:focus{
     color: #404bbf;
 }
 
@@ -91,14 +96,14 @@ li{
 .second-page-text{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
 }
 
-h3{
+.h3-page{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -111,7 +116,6 @@ h3{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
 }
 
 .team-page{
@@ -141,7 +145,7 @@ h3{
     color: #f4f4fd;
 }
 
-footer > p{
+.footer-text{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
