@@ -7,7 +7,7 @@ body{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -29,13 +29,26 @@ body{
     color: #404bbf;
 }
 
+.link:active{
+    color: #404bbf;
+}
+
 .header-address{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
         font-style: normal;
+}
+
+.email,
+.tel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+     color: #434455;
+}
+
+.email:hover,
+.tel:hover{
+    color: #404bbf;
 }
 
 a{
@@ -50,11 +63,11 @@ li{
     background-color: #2e2f42;
 }
 
-h1{
+.main-text{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -70,17 +83,19 @@ h1{
         cursor: pointer;
 }
 
-.button:hover{
+.button:hover,
+.button:focus{
     background-color: #404bbf;
 }
 
-h2{
+.second-page-text{
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 h3{
@@ -91,7 +106,7 @@ h3{
         color: #2e2f42;
 }
 
-p{
+.some-text{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -108,7 +123,7 @@ p{
     background-color: #fff;
 }
 
-footer{
+.footer-page{
     background-color: #2e2f42;
 }
 
@@ -116,7 +131,7 @@ footer{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
