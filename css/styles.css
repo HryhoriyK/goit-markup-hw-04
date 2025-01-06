@@ -113,6 +113,10 @@ ul{
 .main-page{
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: url("./images/office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-text{
@@ -191,6 +195,21 @@ h2{
     width: calc((100%-72px) /4);
 }
 
+.cont-icon{
+    width: 264px;
+    height: 112px;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display: block;
+}
+
 .benefits-title{
     font-weight: 500;
     font-size: 20px;
@@ -198,6 +217,7 @@ h2{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .benefits-text{
@@ -226,7 +246,7 @@ h2{
 .team-members{
     background-color: #fff;
     width: 264px;
-    height: 380px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
     width: calc((100%-72px)/4);
 }
@@ -236,7 +256,8 @@ h2{
 }
 
 .cont-team{
-    padding: 32px 0;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-name{
@@ -261,6 +282,24 @@ h2{
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
 }
 
 .portfolio{
