@@ -98,7 +98,7 @@ img{
     margin-top: 20px;
 }
 
-.link:hover::after{
+.link:active::after{
     background-color: #404bbf;
 }
 
